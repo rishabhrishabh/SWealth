@@ -13,6 +13,7 @@ TextView desc;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
         desc=(TextView)findViewById(R.id.desc_);
+        //defining html
         desc.setText(Html.fromHtml("Swealth is a cross platform portal aimed at providing a common ground to  sperm Banks in India and wishful Couples to find suitable matches of sperm . Simple Search! All you need to do is register your personal needs and then browse through our comprehensive database of profiles.<br><br><h2><b> Why Us?</b></h2><br> We understand the human desire to borne a child and ensure that our members are able to find suitable matches as per their prerequisites."));
 
     }
